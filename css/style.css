@@ -1,0 +1,36 @@
+.ul-classbar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.ul-classbar li{
+    float: left;
+    padding:15px;
+}
+.ul-classbar li a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1rem;
+    color: black;
+
+}
+.more{
+    position: absolute;
+    background:#373738;
+    display: none;
+    top: 48px;
+    margin-left:-15px;
+    width:150px;
+}
+.more li a{
+    text-decoration: none;
+}
+.ul-classbar li:hover{
+    background:grey;
+}
+.ul-classbar li:hover .more{
+    display: block;
+}
+.ul-classbar li ul li:hover .more{
+    display:block;
+} 
