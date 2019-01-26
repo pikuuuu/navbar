@@ -1,36 +1,44 @@
-.ul-classbar{
+.ul-list{
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
 }
-.ul-classbar li{
-    float: left;
+.ul-list li a{
+    text-decoration: none;
+    color: black;
+    padding:15px 15px;
+    font-family: cursive;
+    font-size:1rem;
+    text-align: center;
+}
+.ul-list li{
+    float: right;
     padding:15px;
 }
-.ul-classbar li a{
-    text-decoration: none;
+.ul-list li:hover{
+    background: grey;
+}
+button{
+    background-color: grey;
+    border:none;
+    text-align: center;
     font-family: cursive;
     font-size: 1rem;
-    color: black;
-
-}
-.more{
-    position: absolute;
-    background:#373738;
-    display: none;
-    top: 48px;
-    margin-left:-15px;
-    width:150px;
-}
-.more li a{
+    padding: 15px 15px;
+    display:inline-block;
     text-decoration: none;
+    margin:4px 6px;
+    cursor: pointer;
 }
-.ul-classbar li:hover{
-    background:grey;
+.sitename{
+    float:left;
+    
 }
-.ul-classbar li:hover .more{
+
+h2{
+    float: left;
+}
+.h2{
     display: block;
 }
-.ul-classbar li ul li:hover .more{
-    display:block;
-} 
+.img{
+    height:450px;
+}
